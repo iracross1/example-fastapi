@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\alembic\\versions"
+    "\\app"
   ],
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
