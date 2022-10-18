@@ -1,4 +1,4 @@
-alembic 1.8.1
+alembic==1.8.1
 anyio==3.6.1
 asgiref==3.5.2
 beautifulsoup4==4.10.0
