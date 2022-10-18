@@ -11,11 +11,11 @@ from .config import settings
 
 app = FastAPI()
 
-#origins = ["https://www.google.com"]
+origins = ["*"]
 
 app.add_middleware(
 	CORSMiddleware,
-	allow_orgins=[*],
+	allow_orgins=origins,
 	allow_credentials=True,
 	allow_methods=["*"],
 	allow_headers=["*"],
